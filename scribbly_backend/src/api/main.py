@@ -40,7 +40,7 @@ app = FastAPI(
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # TODO: Configure for specific origins in production
+    allow_origins=["https://vscode-internal-42476-beta.beta01.cloud.kavia.ai:4000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
